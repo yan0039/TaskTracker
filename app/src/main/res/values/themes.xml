@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      仅用于启动窗口（冷启动首帧）的样式：
+      真正的明暗主题、配色由 Compose 的 TaskTrackerTheme 接管。
+      使用 system 主题作为父级，避免引入 AppCompat 依赖。
+    -->
+    <style name="Theme.TaskTracker" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+</resources>
